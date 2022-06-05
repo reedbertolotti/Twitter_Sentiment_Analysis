@@ -14,12 +14,12 @@ Sentiment analysis applied to replies to gauge sentiment toward original tweet.
 
 # Demo
 ## Environment
-### JS libraries:
+#### JS libraries:
 install node js <br>
 npm install express <br>
 npm install python-shell (rooted from child-process library) <br>
 
-### Python libraries:
+#### Python libraries:
 pip install tweepy <br>
 pip install csv <br>
 pip install os <br>
@@ -31,9 +31,9 @@ pip install matplotlib <br>
 pip install dataframe_image <br>
 
 ## Running:
-on command prompt/terminal: <br>
+#### on command prompt/terminal: <br>
 cd file_directory <br>
 node index.js <br>
 
-### Limitations of usable tweets:
+#### Limitations of usable tweets:
 - Tweet must be less than 7 days old
