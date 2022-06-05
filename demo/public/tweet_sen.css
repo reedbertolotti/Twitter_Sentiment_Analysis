@@ -1,0 +1,129 @@
+/* styling sheet for tweet_sen.css */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    margin-bottom: 10px;
+}
+
+#logo{
+    max-width: 75px;
+    margin-right: 50px;
+}
+
+#title_name{
+    color: black;
+    font-family: Helvetica Neue, Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h1{
+    color: grey;
+    font-family: Helvetica Neue, Helvetica;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+}
+
+.proj_desc{
+    color: black;
+    font-family: Helvetica Neue, Helvetica;
+    font-size: 18px;
+    padding: 20px;
+
+    width: 350px;
+    border: 2px solid grey;
+
+    margin: 35px;
+    margin-top: 0;
+}
+
+.content{
+    margin: 35px;
+    margin-top: 0px;
+}
+
+.output{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 35px;
+}
+
+.desc{
+    color: black;
+    font-family: Helvetica Neue, Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid;
+    width: 325px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+input:focus {
+    outline: none !important;
+    border: 1px solid rgb(29, 161, 242);
+}
+
+button{
+    color: white;
+    font-family: Helvetica Neue, Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(29, 161, 242);
+}
+button:hover{
+    background-color: bisque;
+}
+button#continue{
+    margin-top: 15px;
+}
+
+button.staticTweet{
+    margin-top: 10px;
+}
+
+.test{
+    margin-top: 25px;
+}
+
+#sTweetImg{
+    max-width:750px;
+    margin-top: 25px;
+}
+
+img#chart{
+    max-width:750px;
+    margin-bottom: 20px;
+}
+
+img#table{
+    max-width:750px;
+} 

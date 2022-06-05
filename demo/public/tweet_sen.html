@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Twitter Sentiment</title>
+        <meta charset="utf-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./reset.css" />
+        <link rel="stylesheet" type="text/css" href="./tweet_sen.css" />
+        <script defer src="./ajax.js"></script>
+        <script defer src="./tweet_sen.js"></script>
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="Twitter-logo.png"/>
+            <div id="title_name">Group 1: Twitter Sentiment Analysis</div>
+        </header>
+
+        <h1>By Elijah Bayani, Reed Bertolotti, Adam Chen, Seth Owings, Daniel Zavorotny</h1>
+        
+        <main>
+            <div class="proj_desc">Project Description</div>
+
+            <div class="content">
+                <div class="user_input">
+                    <p class="desc">We will begin analyzing your tweet:</p>
+                    <input type="url" id="url" placeholder="Please enter a valid twitter url" size="40">
+                </div>
+
+                <button id="continue">Continue</button>
+
+                <div class="output">
+                    <p class="desc" id="acknowledge"></p>
+    
+                    <img id="chart"/>
+    
+                    <div>
+                        <p class="desc" id="sample_desc"></p>
+                        <img id="table"/>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
