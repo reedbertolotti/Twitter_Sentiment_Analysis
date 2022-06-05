@@ -30,13 +30,15 @@ conda install transformers (version 4.19.2) <br>
 conda install matplotlib (version 3.5.2) <br>
 conda install dataframe_image (version 0.1.1) <br>
 
+#### Model weights
+- model weights (bertweet_FullTrained.h5) must be downloaded and placed into the demo folder
+  - https://drive.google.com/file/d/12qIwJfklEVOAK6pmCGgQKmHJ2SzKFCek/view?usp=sharing
+
 ## Running:
 - on command prompt/terminal, run: node index.js <br>
 - in browser, open: http://localhost:3000/ <br>
 
 #### Notes on running:
-- model weights (bertweet_FullTrained.h5) must be downloaded and placed into the demo folder
-  - https://drive.google.com/file/d/12qIwJfklEVOAK6pmCGgQKmHJ2SzKFCek/view?usp=sharing
 - tweets must be in form: https://twitter.com/userName/status/tweetID
   - example: https://twitter.com/SportsCenter/status/1533286249393528833
-- tweet must be less than 7 days old
+- tweets must be less than 7 days old
