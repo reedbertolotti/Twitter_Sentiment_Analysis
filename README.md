@@ -21,6 +21,7 @@ npm install express <br>
 npm install python-shell (rooted from child-process library) <br>
 
 #### Python libraries:
+pip install lxml
 pip install tweepy <br>
 pip install pandas <br>
 pip install tensorflow <br>
