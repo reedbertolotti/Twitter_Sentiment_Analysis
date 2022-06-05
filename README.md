@@ -38,4 +38,3 @@ node index.js <br>
 - tweets must be in form: https://twitter.com/userName/status/tweetID
   - example: https://twitter.com/SportsCenter/status/1533286249393528833
 - tweet must be less than 7 days old
-- demo does not work on retweets
