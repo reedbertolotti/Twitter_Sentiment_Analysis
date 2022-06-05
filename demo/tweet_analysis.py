@@ -39,7 +39,7 @@ csvFile = open('replies.csv', 'w', encoding="utf-8") # for windows
 csvWriter = csv.writer(csvFile)
 
 temp = url[::-1]
-id = temp[ : temp.find('/')]
+id = temp[ temp.find('/') - 19 : temp.find('/')]
 tweet_id = id[::-1]
 
 status = api.get_status(tweet_id)
