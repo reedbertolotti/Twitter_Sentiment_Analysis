@@ -16,6 +16,7 @@ Sentiment analysis applied to replies to gauge sentiment toward original tweet.
 ## Environment
 #### JS libraries:
 install node js <br>
+change directory where demo is located <br>
 npm install express <br>
 npm install python-shell (rooted from child-process library) <br>
 
