@@ -15,19 +15,20 @@ Sentiment analysis applied to replies to gauge sentiment toward original tweet.
 # Demo
 ## Environment
 #### JS libraries:
-install node js <br>
+conda install nodejs
 change directory where demo is located <br>
 npm install express <br>
 npm install python-shell (rooted from child-process library) <br>
+*note: conda has npm by default
 
 #### Python libraries:
-pip install lxml
-pip install tweepy <br>
-pip install pandas <br>
-pip install tensorflow <br>
-pip install transformers <br>
-pip install matplotlib <br>
-pip install dataframe_image <br>
+conda install lxml
+conda install tweepy <br>
+conda install pandas <br>
+conda install tensorflow <br>
+conda install transformers <br>
+conda install matplotlib <br>
+conda install dataframe_image <br>
 
 ## Running:
 #### on command prompt/terminal: <br>
