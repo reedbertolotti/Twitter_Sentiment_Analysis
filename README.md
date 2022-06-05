@@ -32,7 +32,6 @@ pip install dataframe_image <br>
 
 ## Running:
 #### on command prompt/terminal: <br>
-cd file_directory <br>
 node index.js <br>
 
 #### Limitations of usable tweets:
