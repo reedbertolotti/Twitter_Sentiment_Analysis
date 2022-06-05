@@ -31,8 +31,8 @@ conda install matplotlib (version 3.5.2) <br>
 conda install dataframe_image (version 0.1.1) <br>
 
 ## Running:
-#### on command prompt/terminal: <br>
-node index.js <br>
+- on command prompt/terminal, run: node index.js <br>
+- in browser, open: http://localhost:3000/ <br>
 
 #### Notes on running:
 - model weights (bertweet_FullTrained.h5) must be downloaded and placed into the demo folder
