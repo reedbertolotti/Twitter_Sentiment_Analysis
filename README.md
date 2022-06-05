@@ -22,9 +22,6 @@ npm install python-shell (rooted from child-process library) <br>
 
 #### Python libraries:
 pip install tweepy <br>
-pip install csv <br>
-pip install os <br>
-pip install re <br>
 pip install pandas <br>
 pip install tensorflow <br>
 pip install transformers <br>
