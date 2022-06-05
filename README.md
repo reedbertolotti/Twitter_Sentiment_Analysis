@@ -35,7 +35,7 @@ conda install dataframe_image (version 0.1.1) <br>
 node index.js <br>
 
 #### Notes on running:
-- model weights must be downloaded and placed into the demo
+- model weights must be downloaded and placed into the demo folder
   - https://drive.google.com/file/d/12qIwJfklEVOAK6pmCGgQKmHJ2SzKFCek/view?usp=sharing
 - tweets must be in form: https://twitter.com/userName/status/tweetID
   - example: https://twitter.com/SportsCenter/status/1533286249393528833
